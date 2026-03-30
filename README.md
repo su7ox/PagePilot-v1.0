@@ -52,8 +52,7 @@ Unlike basic API wrappers, this project uses a **hybrid ML architecture**: text 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/su7ox/smart-pdf-reader.git
-cd smart-pdf-reader/DocGenius
+git clone https://github.com/su7ox/PagePilot-v1.0.git
 ```
 
 ### 2. Create a Virtual Environment *(Recommended)*
