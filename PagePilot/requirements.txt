@@ -1,0 +1,9 @@
+tiktoken
+faiss-cpu
+langchain
+PyPDF2
+python-dotenv
+streamlit
+Pillow
+sentence-transformers
+google-generativeai
