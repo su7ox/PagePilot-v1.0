@@ -52,8 +52,12 @@ Unlike basic API wrappers, this project uses a **hybrid ML architecture**: text 
 ### 1. Clone the Repository
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/su7ox/smart-pdf-reader.git
 cd smart-pdf-reader/DocGenius
+=======
+git clone https://github.com/su7ox/PagePilot-v1.0.git
+>>>>>>> 9d3f538c47585bb8cc75c008e04857a14cbd826a
 ```
 
 ### 2. Create a Virtual Environment *(Recommended)*
@@ -109,7 +113,11 @@ streamlit run PDFChat.py
 
 ```
 smart-pdf-reader/
+<<<<<<< HEAD
 └── DocGenius/
+=======
+└── PagePilot/
+>>>>>>> 9d3f538c47585bb8cc75c008e04857a14cbd826a
     ├── PDFChat.py          # Main Streamlit application
     ├── requirements.txt    # Python dependencies
     └── .env                # Your API key (not committed to Git)
@@ -125,6 +133,7 @@ smart-pdf-reader/
 
 ---
 
+<<<<<<< HEAD
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
@@ -141,3 +150,9 @@ This project is licensed under the [MIT License](LICENSE).
 <div align="center">
 Built with ❤️ using LangChain, FAISS, and Google Gemini
 </div>
+=======
+
+
+<div align="center">
+</div>
+>>>>>>> 9d3f538c47585bb8cc75c008e04857a14cbd826a

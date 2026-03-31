@@ -65,9 +65,13 @@ def main():
             User Question:
             {user_question}
             """
+<<<<<<< HEAD
             with st.expander("🕵️‍♂️ Click here to see the exact data sent to the API (Proof of RAG)"):
                 st.text(prompt)
                 
+=======
+            
+>>>>>>> 9d3f538c47585bb8cc75c008e04857a14cbd826a
             # 8. RAG GENERATION: Send the augmented prompt to Gemini (The Talking Brain)
             model = genai.GenerativeModel("gemini-2.5-flash-lite")
             response = model.generate_content(prompt)
