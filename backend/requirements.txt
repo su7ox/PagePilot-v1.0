@@ -1,10 +1,6 @@
 tiktoken
 faiss-cpu
-<<<<<<< HEAD
 langchain==0.0.200
-=======
-langchain
->>>>>>> 9d3f538c47585bb8cc75c008e04857a14cbd826a
 PyPDF2
 python-dotenv
 streamlit
