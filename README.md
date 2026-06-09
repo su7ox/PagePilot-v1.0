@@ -29,23 +29,22 @@ The ML architecture uses open-source models for local text embeddings (ensuring 
 ## 🛠️ Tech Stack
 
 ### Frontend (Client UI)
-| Technology | Description |
-|---|---|
-| **Next.js & React** | Modern UI framework and component library |
-| **Redux Toolkit** | Global state management (chat history, loading states) |
-| **Tailwind CSS** | Utility-first styling for a clean, responsive interface |
-| **Axios** | Handling asynchronous REST API requests |
+| Technology | Description | Why We Chose It |
+|---|---|---|
+| **Next.js & React** | UI framework & component library | Fast rendering (SSR) and seamless component reusability. |
+| **Redux Toolkit** | Global state management | Predictable handling of chat history and async loading states. |
+| **Tailwind CSS** | Utility-first CSS framework | Rapid, responsive, and consistent UI styling. |
+| **Axios** | HTTP client | Reliable REST API communication with built-in interceptors. |
 
 ### Backend (REST API & Machine Learning)
-| Technology | Description |
-|---|---|
-| **FastAPI / Flask** | High-performance Python web server |
-| **LangChain** | LLM orchestration and RAG pipeline management |
-| **Google Gemini API** | Generative LLM (`gemini-2.5-flash-lite`) |
-| **Hugging Face** | Local vector embeddings (`all-MiniLM-L6-v2`) |
-| **FAISS** | In-memory vector database for fast similarity search |
-| **PyPDF2** | Intelligent document parsing and text extraction |
-
+| Technology | Description | Why We Chose It |
+|---|---|---|
+| **FastAPI / Flask** | Python web server | High performance and native async support for AI tasks. |
+| **LangChain** | LLM & RAG orchestration | Simplifies document chunking, embeddings, and chat memory. |
+| **Gemini API** | Generative LLM (`flash-lite`) | Extremely fast, low-latency, and cost-effective responses. |
+| **Hugging Face** | Local embeddings (`MiniLM`) | Generates semantic embeddings locally for free. |
+| **FAISS** | In-memory vector database | Blazing fast similarity search for retrieving document context. |
+| **PyPDF2** | Document parsing | Lightweight and reliable text extraction from uploaded PDFs. |
 ---
 
 ## ✨ Key Features
@@ -57,12 +56,3 @@ The ML architecture uses open-source models for local text embeddings (ensuring 
 
 ---
 
-## 🚀 Local Installation & Setup
-
-Because this is a full-stack application, you will need to run the backend and the frontend simultaneously in two different terminal windows.
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/su7ox/PagePilot-v1.0.git](https://github.com/su7ox/PagePilot-v1.0.git)
-cd PagePilot-v1.0
