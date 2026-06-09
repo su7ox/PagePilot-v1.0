@@ -1,4 +1,4 @@
-# 🧠 PagePilot: RAG-Powered AI Assistant
+# PagePilot: AI Powered PDF chat bot
 
 <div align="center">
 
