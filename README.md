@@ -43,7 +43,7 @@ The ML architecture uses open-source models for local text embeddings (ensuring 
 | **LangChain** | LLM & RAG orchestration | Simplifies document chunking, embeddings, and chat memory. |
 | **Gemini API** | Generative LLM (`flash-lite`) | Extremely fast, low-latency, and cost-effective responses. |
 | **Hugging Face** | Local embeddings (`MiniLM`) | Generates semantic embeddings locally for free. |
-| **FAISS** | In-memory vector database | Blazing fast similarity search for retrieving document context. |
+| **FAISS** | In-memory vector database | fast similarity search for retrieving document context. |
 | **PyPDF2** | Document parsing | Lightweight and reliable text extraction from uploaded PDFs. |
 ---
 
