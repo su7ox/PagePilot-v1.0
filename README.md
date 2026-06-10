@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 **PagePilot** is an advanced **Retrieval-Augmented Generation (RAG)** application that lets you have a natural conversation with any PDF document. 
 
@@ -47,7 +47,7 @@ The ML architecture uses open-source models for local text embeddings (ensuring 
 | **PyPDF2** | Document parsing | Lightweight and reliable text extraction from uploaded PDFs. |
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **Decoupled Architecture:** Clean separation of concerns between the React user interface and the Python machine learning logic.
 * **Intelligent Document Parsing:** Chunks documents by paragraphs and sentences, preserving semantic meaning.
